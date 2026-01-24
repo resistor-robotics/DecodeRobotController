@@ -86,10 +86,6 @@ public class RobotAutoDriveByTime_Linear extends LinearOpMode {
         rightFrontDrive = hardwareMap.get(DcMotor.class, "FrontRight");
         leftBackDrive = hardwareMap.get(DcMotor.class, "BackLeft");
         rightBackDrive = hardwareMap.get(DcMotor.class, "BackRight");
-        launcher = hardwareMap.get(DcMotorEx.class, "Pitcher");
-        leftFeeder = hardwareMap.get(CRServo.class, "ServingWheelLeft");
-        rightFeeder = hardwareMap.get(CRServo.class, "ServingWheelRight");
-
         /*
          * To drive forward, most robots need the motor on one side to be reversed,
          * because the axles point in opposite directions. Pushing the left stick forward
